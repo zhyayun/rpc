@@ -4,8 +4,11 @@ public class TestUtils {
 
     public static void main(String[] args) {
 
-
-
         /*添加了测试方法*/
+    }
+
+    private static void get(){
+
+
     }
 }
