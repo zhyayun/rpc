@@ -14,7 +14,7 @@ import com.dyuproject.protostuff.Schema;
 import com.dyuproject.protostuff.runtime.RuntimeSchema;
 
 public class Tool {
-	private static Map<Class<?>, Schema<?>> cachedSchema = new ConcurrentHashMap<>();
+    private static Map<Class<?>, Schema<?>> cachedSchema = new ConcurrentHashMap<>();
 
     private static Objenesis objenesis = new ObjenesisStd(true);
 
